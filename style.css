@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
 }
 header .carousel-inner .item{
     height: 100vh;
@@ -21,6 +22,7 @@ header .carousel-inner .item{
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    opacity: 0.5;
 }
 .carousel-caption{
     padding-bottom: 250px;
