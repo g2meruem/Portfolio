@@ -1,103 +1,117 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: black;
 }
-header .carousel-inner .item{
+
+header .carousel-inner .item {
     height: 100vh;
 }
+
 .navbar-inverse {
-	background-color: transparent;
-	border-color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
+
 .navbar-inverse .navbar-brand {
-	color: #fff;
-	font-family: 'Alfa Slab One', cursive;
-	font-size: 25px;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
 }
-.navbar-inverse .navbar-nav > li > a {
-	color: #fff;
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
 }
-.bg{
+
+.bg {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
     opacity: 0.5;
 }
-.carousel-caption{
+
+.carousel-caption {
     padding-bottom: 250px;
     text-align: left;
     left: 13%;
 }
+
 .carousel-caption h2 {
-	font-size: 50px;
-	text-transform: uppercase;
-	font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
 }
+
 .carousel-caption .btn {
-	display: inline-block;
-	margin-top: 15px;
+    display: inline-block;
+    margin-top: 15px;
 }
-.carousel-control.right{
-    background-image: none;
-}
-.carousel-control.left{
+
+.carousel-control.right {
     background-image: none;
 }
 
-@media (max-width:767px){
+.carousel-control.left {
+    background-image: none;
+}
+
+@media (max-width:767px) {
     .bg {
-	background-position: 65%;
-}
+        background-position: 65%;
+    }
+
     .carousel-caption {
-	padding-bottom: 140px;
+        padding-bottom: 140px;
         left: 5%;
-}
+    }
+
     .carousel-caption h2 {
-	font-size: 20px;
-}
+        font-size: 20px;
+    }
+
     .carousel-caption h3 {
-	font-size: 15px;
-}
+        font-size: 15px;
+    }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 body {
-  	-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-top: 0px;
 }
 
 h1 {
-   color: #fff; 
-   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
-   padding-top: 30px;
-   font-size: 100px; 
-   font-weight: 700;
-   text-align: center;
-   font-family: 'Source Sans Pro', sans-serif;
-   margin: 0px;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
 form {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 965px;
     height: 450px;
-    padding:30px;
+    padding: 30px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    overflow: hidden; 
+    background-clip: padding-box;
+    overflow: hidden;
 }
 
-textarea{
-	  background: rgba(0, 0, 0, 0.4); 
+textarea {
+    background: rgba(0, 0, 0, 0.4);
     width: 894px;
     height: 110px;
     border: none;
@@ -106,7 +120,7 @@ textarea{
     border-radius: 10px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
+    background-clip: padding-box;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -130,7 +144,7 @@ select {
     color: #fff;
     display: block;
     background: transparent;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
     margin-bottom: 20px;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
@@ -140,7 +154,8 @@ select {
     -moz-appearance: none;
 }
 
-.nameinput, .emailinput {
+.nameinput,
+.emailinput {
     width: 894px;
     height: 48px;
     border: none;
@@ -149,7 +164,7 @@ select {
     border-radius: 10px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
+    background-clip: padding-box;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -164,131 +179,177 @@ input[type=submit] {
 }
 
 input.nameinput {
-	  background: rgba(0, 0, 0, 0.4); 
-	  padding-left: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
 }
 
 input.emailinput {
-	  background: rgba(0, 0, 0, 0.4);
-	  padding-left: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
 }
 
 input.message {
-	  background: rgba(0, 0, 0, 0.4);
-	  padding-left: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
 }
 
 select.indent {
-	  padding-left: 45px;
+    padding-left: 45px;
     cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
-	  color: #fff;
+    color: #fff;
 }
 
-:-moz-placeholder{ 
-    color: #fff; 
+:-moz-placeholder {
+    color: #fff;
 }
 
 ::-moz-placeholder {
     color: #fff;
 }
 
-:-ms-input-placeholder {  
-	  color: #fff; 
+:-ms-input-placeholder {
+    color: #fff;
 }
 
-input:focus, textarea:focus { 
-	  background-color: rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-	  overflow: hidden; 
+input:focus,
+textarea:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    overflow: hidden;
 }
 
 #btn5 {
-	border: none;
-	font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  width: 200px;
-  height: 48px;
-	color: #000;
-	background: #fff;
-	cursor: pointer;
-	display: inline-block;
-	font-weight: 700;
-	position: relative;
-  outline: none;
-  box-shadow: 0 6px #cecece;
-  border-radius: 5px;
-  float: right;
-  margin-right: 6px;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    width: 200px;
+    height: 48px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    outline: none;
+    box-shadow: 0 6px #cecece;
+    border-radius: 5px;
+    float: right;
+    margin-right: 6px;
 }
 
 #btn5:hover {
-	background: #fff;
-  outline: none;
-  box-shadow: 0 4px #cecece;
-	top: 2px;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 4px #cecece;
+    top: 2px;
 }
 
 #btn5:active {
-	background: #fff;
-  outline: none;
-  box-shadow: 0 0 #cecece;
-	top: 6px;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 #cecece;
+    top: 6px;
 }
 
 .flat {
-	border: none;
-	cursor: pointer;
-	display: inline-block;
-	outline: none;
-  position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 
 .flat:before {
-	position: absolute;
-	height: 100%;
-	left: 0;
-	top: 0;
-	line-height: 3;
-	font-size: 140%;
-	width: 60px;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
 }
 
 
 .flat {
-   width: 960px !important;
-   height: 48px;
-   overflow: hidden;
-   margin-bottom: 20px;
-   background: url(http://www.jordancundiff.com/wp-content/uploads/2014/03/icon-dropdown.png) no-repeat right;
-   }
-
-@media only screen and ( min-width: 768px ) and ( max-width: 1035px ) {
-  h1 { font-size: 80px; }
-  form { width: 736px !important; }
-    #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat > select, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat { width: 731px !important; }
-    .nameinput, .emailinput, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Message > textarea { width: 666px !important; }
+    width: 960px !important;
+    height: 48px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: url(http://www.jordancundiff.com/wp-content/uploads/2014/03/icon-dropdown.png) no-repeat right;
 }
 
-@media only screen and ( max-width: 804px ) {
-    h1 { font-size: 50px; }
-  form { width: 450px !important; }
-   #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat > select, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat { width: 445px !important; }
-    .nameinput, .emailinput, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Message > textarea { width: 380px !important; }
+@media only screen and (min-width: 768px) and (max-width: 1035px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    form {
+        width: 736px !important;
+    }
+
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat>select,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat {
+        width: 731px !important;
+    }
+
+    .nameinput,
+    .emailinput,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Message>textarea {
+        width: 666px !important;
+    }
 }
 
-@media only screen and ( max-width: 517px ) {
-     h1 { font-size: 30px; }
-  form { width: 295px !important; }
-  #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat > select, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Subject.flat { width: 290px !important; }
-    .nameinput, .emailinput, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Message > textarea { width: 225px !important; }
-  .btn { width: 110px; }
+@media only screen and (max-width: 804px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    form {
+        width: 450px !important;
+    }
+
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat>select,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat {
+        width: 445px !important;
+    }
+
+    .nameinput,
+    .emailinput,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Message>textarea {
+        width: 380px !important;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    form {
+        width: 295px !important;
+    }
+
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat>select,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Subject.flat {
+        width: 290px !important;
+    }
+
+    .nameinput,
+    .emailinput,
+    #wpcf7-f156-p143-o1\20 formwrap>form>p>span.wpcf7-form-control-wrap.Message>textarea {
+        width: 225px !important;
+    }
+
+    .btn {
+        width: 110px;
+    }
 }
