@@ -353,7 +353,23 @@ textarea:focus {
         width: 110px;
     }
 }
+h1{
+    font-weight: bold;
+    padding: 100px;
+    text-shadow: 
+    3px 3px 1px red,
+    5px 5px 2px yellow,
+    8px 8px 3px blue;
+    ;
+}
 
 .sobre{
-    color: white;
+    text-align: center;
+    padding: 25px;
+    border: 10px ridge lightblue;
+    margin: 25px;
+    color:white;
+    background-color: black;
+    opacity: 90%;
+    font-family: 'Montserrat';
 }
